@@ -37,7 +37,7 @@ The necessary steps to make the program work:</br>
 
 ---
 
-**The program was developed using python 3.10.6, Flask 2.2**
+**The program was developed using python 3.10.6, Flask 2.2.**
 
 
 In order to run the program, you have to execute main_flask.py.
