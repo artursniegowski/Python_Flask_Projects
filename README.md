@@ -1,5 +1,5 @@
 ## Python_Flask_Projects
-This is a repository of unique Flask projects that you can either use as ideas for your next Flask project or as a source to learn from. Each project contains the full source code and is listed in order of difficulty level. It starts with the easiest project, and with every new project, you will be building more challenging flask web applications. Have a peek and enjoy codding !
+This is a repository of unique Flask projects that you can either use as ideas for your next Flask project or as a source to learn from. Each project contains the full source code and is listed in order of difficulty level. It starts with the easiest project, and with every new project, you will be building more challenging flask web applications. Have a peek and enjoy codding!
 
 
 # 01_Guess_The_Number_game
