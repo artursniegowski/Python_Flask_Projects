@@ -10,3 +10,8 @@ The user is supposed to type the guessed number into the path. The web app will 
 This is a web-based name card using one of the templates on HTML 5 Up (https://html5up.net/).
 It is exactly like the old school paper name cards, just better.
 It was developed using Python's web framework, Flask.
+
+# 03_Blog_website
+This is a blog website developed using Python's web framework, Flask.
+The main page consists of a list of posts, with the option "Read", which will redirect the user into a detailed view of the given post.
+The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML.
