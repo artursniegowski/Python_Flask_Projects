@@ -2,7 +2,7 @@
 
 This is a blog website developed using Python's web framework, Flask.
 The main page consists of a list of posts, with the option "Read", which will redirect the user into a detailed view of the given post.
-The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML.
+The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML. 
 
 ---
 
