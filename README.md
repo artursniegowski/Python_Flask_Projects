@@ -24,3 +24,10 @@ This is a blog website that is basically an upgraded version of the 03_Blog_webs
 - fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver.</br>
 
 The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML.
+
+# 05_Flask_WTForms
+This is an example project in Flask showing how to start using the Flask-WTF, which gives a number of benefits over the simple HTML form.
+With easy form validation, it makes sure that the user is entering the data in the required format and fields, with less code, and build in CSRF Protection (CSRF stands for Cross Site Request Forgery).
+This website consists of the main page with a login button. After pressing it, the user gets transferred to the login page,
+where an email and password are required. The "secret" is revealed to the user after entering the correct email address and password; otherwise, the user is presented with an access denied website.
+Main Features include: Inheriting Templates Using Jinja2, Jinja2 - templates, Flask-Bootstrap, Flask-WTF, WTForms, Forms validation.
