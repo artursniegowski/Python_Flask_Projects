@@ -4,7 +4,7 @@ This is a blog website that is basically an upgraded version of the 03_Blog_webs
 - multi-page website with an interactive navigation bar,</br>
 - dynamically generated blogpost pages with full screen titles,</br>
 - fully mobile responsive with an adaptive navigation bar,</br>
-- fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver,</br>
+- fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver.</br>
 
 
 The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML.
