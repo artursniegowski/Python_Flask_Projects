@@ -62,26 +62,32 @@ Next, you need to adjust the variable *API_NPOINT_ENDPPOINT* in server.py.
 ***The home page - desktop view.***</br>
 ![Screenshot](docs/img/01-Home_page_desktop.png)</br>
 
+---
 
 ***The home page - mobile view.***</br>
 ![Screenshot](docs/img/02-Home_page_mobile.png)</br>
 
+---
 
 ***The About page.***</br>
 ![Screenshot](docs/img/03_about_view.png)</br>
 
+---
 
 ***Detailed post view.***</br>
 ![Screenshot](docs/img/04_detailed_post_view.png)</br>
 
+---
 
 ***The Contact page with the contact form filled in.***</br>
 ![Screenshot](docs/img/05_contact_view_and_filled_form.png)</br>
 
+---
 
 ***After successfully submitting the contact form, the contact page appears with a message***</br>
 ![Screenshot](docs/img/06_contact_view_after_data_sent.png)</br>
 
+---
 
 ***Example email received from the website.***</br>
 ![Screenshot](docs/img/07_email_recived.png)</br>
