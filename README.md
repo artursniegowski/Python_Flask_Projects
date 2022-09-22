@@ -15,3 +15,11 @@ It was developed using Python's web framework, Flask.
 This is a blog website developed using Python's web framework, Flask.
 The main page consists of a list of posts, with the option "Read", which will redirect the user into a detailed view of the given post.
 The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML.
+
+# 04_Blog_website_part_II
+This is a blog website that is basically an upgraded version of the 03_Blog_website, which was built using the Python framework Flask. The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/previews/clean-blog), Bootstrap 5, CSS, and JS. The main features are:</br>
+- multi-page website with an interactive navigation bar,</br>
+- dynamically generated blogpost pages with full screen titles,</br>
+- fully mobile responsive with an adaptive navigation bar,</br>
+- fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver,</br>
+The data for each post is stored using an API (https://www.npoint.io/), which converts our data into an easily accessible API endpoint. The blog website makes a request to this endpoint and retrieves a JSON data representation for each post, which is later rendered into HTML.
