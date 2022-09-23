@@ -4,7 +4,7 @@ It is a website where the user can use it to scan for a nearby cafe and check wh
 The main page consists of two buttons, each of which will redirect the user either to the whole list of cafes stored, or to a site where the user can fill out the given form and add a new cafe to the list.
 The cafes are stored in a csv file and handled with Python and Flask.
 In order to submit the form for adding a new coffee, the user's data has to pass validation.
-The form is handled using the quick_form from Flask bootstrap (https://pythonhosted.org/Flask-Bootstrap/forms.html).
+The form is handled using the quick_form from Flask bootstrap (https://pythonhosted.org/Flask-Bootstrap/forms.html). 
 Inheriting Templates Using Jinja2, Jinja2-Templates, Flask-Bootstrap, Flask-WTF, WTForms, and Forms Validation are some of the main features.
 
 ---
