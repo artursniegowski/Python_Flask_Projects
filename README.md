@@ -31,3 +31,11 @@ With easy form validation, it makes sure that the user is entering the data in t
 This website consists of the main page with a login button. After pressing it, the user gets transferred to the login page,
 where an email and password are required. The "secret" is revealed to the user after entering the correct email address and password; otherwise, the user is presented with an access denied website.
 Main Features include: Inheriting Templates Using Jinja2, Jinja2 - templates, Flask-Bootstrap, Flask-WTF, WTForms, Forms validation.
+
+# 06_Flask_Coffee_and_WIFI_website
+It is a website where the user can use it to scan for a nearby cafe and check what time they are open and if they have good coffee and easy access to wifi and power sockets in case they want to work in one of them.
+The main page consists of two buttons, each of which will redirect the user either to the whole list of cafes stored, or to a site where the user can fill out the given form and add a new cafe to the list.
+The cafes are stored in a csv file and handled with Python and Flask.
+In order to submit the form for adding a new coffee, the user's data has to pass validation.
+The form is handled using the quick_form from Flask bootstrap (https://pythonhosted.org/Flask-Bootstrap/forms.html).
+Inheriting Templates Using Jinja2, Jinja2-Templates, Flask-Bootstrap, Flask-WTF, WTForms, and Forms Validation are some of the main features.
