@@ -5,7 +5,7 @@ The data is stored in a database and managed by using SQLAlchemy from Flask to s
 The main page will display a list of all the books in the database, and the user will have the option of:</br>
 - adding a new book to the database (title, author, rating), </br>
 - updating the rating of an existing book,</br>
-- deleting an existing book.</br>
+- deleting an existing book.</br> 
 
 This is a project to get more familiar with the CRUD operations with Flask SQLAlchemy.
 Jinja2, Jinja2-Templates, Flask-SQLAlchemy, and Forms are some of the main features.
