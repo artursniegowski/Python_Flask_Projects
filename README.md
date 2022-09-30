@@ -51,3 +51,12 @@ The main page will display a list of all the books in the database, and the user
 
 This is a project to get more familiar with the CRUD operations with Flask SQLAlchemy.
 Jinja2, Jinja2-Templates, Flask-SQLAlchemy, and Forms are some of the main features.
+
+
+## 08_My_Top_10_Movies_Website
+This is a website that compiles a list of your top favourite movies of all time.
+It was developed using Python / Flask / WTForms /SQLite / SQLAlchemy / Flask-Bootstrap.
+The movie data is stored in a SQLite database and managed with the help of SQLAlchemy.
+The user can add movies and search for them according to titles with the help of the API 
+https://www.themoviedb.org/ which will find the available movies that can be added to the list. The movies will be ordered and ranked on the main page as neatly formatted flip cards based on the user ratings.
+The user also has the option to delete any of the movies from the list, as well as update the rating and review at any time. Changing ratings of the movies will result in an updated order/rank list.
