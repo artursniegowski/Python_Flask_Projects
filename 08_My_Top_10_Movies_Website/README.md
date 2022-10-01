@@ -90,7 +90,7 @@ free from https://developers.themoviedb.org/3/getting-started/introduction. </br
 ---
 
 ***Adding a movie page - list view with the results from the API themoviedb. The User has to select which movie to add.***</br>
-![Screenshot](docs/img/06_list_of_movies_from_API.png)</br>
+![Screenshot](docs/img/06_list_of_movies_from_API.png)</br> 
 
 
 ---
