@@ -10,7 +10,7 @@ The user also has the option to delete any of the movies from the list, as well 
 
 This is a project to get more familiar with the CRUD operations with Flask SQLAlchemy and get a more in-depth understanding of the powerful Flask framework.
 Some of the main features are Jinja2, Jinja2-Templates, Flask-SQLAlchemy, SQLAlchemy, SQLite, WTForms, Flask-Bootstrap, consuming APIs, and many more.
-The forms are handled using the quick_form from Flask bootstrap (https://pythonhosted.org/Flask-Bootstrap/forms.html).
+The forms are handled using the quick_form from Flask bootstrap (https://pythonhosted.org/Flask-Bootstrap/forms.html). 
 
 ---
 
