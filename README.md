@@ -59,7 +59,7 @@ The user can add movies and search for them according to titles with the help of
 https://www.themoviedb.org/ which will find the available movies that can be added to the list. The movies will be ordered and ranked on the main page as neatly formatted flip cards based on the user ratings.
 The user also has the option to delete any of the movies from the list, as well as update the rating and review at any time. Changing ratings of the movies will result in an updated order/rank list.
 
-# 09_RESTful_API_CAFE_WIFI
+## 09_RESTful_API_CAFE_WIFI
 This is a RESTful API created with Python / Flask / SQLite / SQLAlchemy.
 It has a home page with a link to the documentation for the API created with the help
 of Postman (https://www.postman.com/).
