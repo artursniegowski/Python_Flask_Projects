@@ -51,6 +51,20 @@ The necessary steps to make the program work:</br>
 ***The home page with a link to the documentation.***</br>
 ![Screenshot](docs/img/01_home.png)
 
+---
+
+***Example GET HTTP request and respond - get cafe by location.***
+![Screenshot](docs/img/03_example_respond_get_cafe_by_location.png)
+
+---
+
+***Example GET HTTP request and respond - get a random cafe.***
+![Screenshot](docs/img/04_example_respond_get_random_cafe.png)
+
+---
+
+***Example DELETE HTTP request and respond - delete a specific cafe - error due to the invalid key_api.***
+![Screenshot](docs/img/05_example_respond_delete_without_a_valid_api_key.png)
 
 ---
 
