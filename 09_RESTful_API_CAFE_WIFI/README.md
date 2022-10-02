@@ -63,7 +63,7 @@ The necessary steps to make the program work:</br>
 
 ---
 
-***Example DELETE HTTP request and respond - delete a specific cafe - error due to the invalid key_api.***
+***Example DELETE HTTP request and respond - delete a specific cafe - error due to the invalid api-key.***
 ![Screenshot](docs/img/05_example_respond_delete_without_a_valid_api_key.png)
 
 ---
