@@ -81,4 +81,4 @@ The necessary steps to make the program work:</br>
 
 
 In order to run the program, you have to execute main.py.
-And your website will be accessible under localhost:5000 (http://127:0:0:1:5000).
+And your website will be accessible under localhost:5000 (http://127:0:0:1:5000). 
