@@ -6,7 +6,7 @@ This is a blog website that is basically an upgraded version of the 04_Blog_webs
 - all the posts will be stored in a SQLite database and managed with Flask-SQLAlchemy,</br>
 - dynamically generated blogpost pages with full screen titles,</br>
 - multi-page website with an interactive navigation bar,</br>
-- fully mobile responsive with an adaptive navigation bar,</br>
+- fully mobile responsive with an adaptive navigation bar,</br> 
 - fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver,</br>
 - error handling - 404 - page not found.</br>
 
