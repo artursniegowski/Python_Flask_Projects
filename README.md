@@ -73,3 +73,14 @@ The user can make different HTTP requests like: </br>
 -DELETE (the user can delete a given cafe from the database, but only with a valid api_key). </br>
 
 In the documentation you can find how to make all the requests with the necessary key words.
+
+## 10_RESTful_Blog_website_part_III
+This is a blog website that is basically an upgraded version of the 04_Blog_website_II, which was built using the Python framework Flask. The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/previews/clean-blog), Flask-Bootstrap, Bootstrap, CSS. The main features are:</br>
+- RESTful Blog - with the blog you will be able to create new posts, edit and delete existing posts from the database (Flask HTTP requests and forms WTF),</br>
+- CKEditorField - The CK Editor field renders the CK editor control that allows users to visually work with HTML and save the results back into a text property.</br>
+- all the posts will be stored in a SQLite database and managed with Flask-SQLAlchemy,</br>
+- dynamically generated blogpost pages with full screen titles,</br>
+- multi-page website with an interactive navigation bar,</br>
+- fully mobile responsive with an adaptive navigation bar,</br>
+- fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver,</br>
+- error handling - 404 - page not found.</br>
