@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Select Movie{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="heading">Select Movie</h1>
+  {% for movie in movies %}
+    <p>
+      <a href="{{ url_for('add_movie_database', id=movie.movie_id) }}"> {{ movie.title }} - {{ movie.release_date }}</a>
+    </p>
+  {% endfor %}
+
+</div>
+<h3 class="content" style="padding: 3rem;">Movies search powered by www.themoviedb.org API</h3>
+<div class="content">
+  <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" width='300px'>
+</div>
+{% endblock %}
