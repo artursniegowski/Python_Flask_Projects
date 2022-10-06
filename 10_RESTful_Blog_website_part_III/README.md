@@ -17,7 +17,7 @@ The blog can perform POST, GET, DELETE HTTP request in order to create, edit or 
 
 The main page consists of a list of posts (titles and subtitles), with the option to open each post, which will redirect the user into a detailed view of the given post. The user can also add a post from the main page with the help of the button: Create new Post. On top of that, from the detail view of each post can be edited.
 The adaptive navabr has the options of about, contact, and home page. The contact view has a form where the user can fill up the required data and send it to the server as a POST request, which will be processed and sent to the given email address in the form with a short message.
-
+ 
 
 ---
 
