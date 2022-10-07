@@ -84,3 +84,12 @@ This is a blog website that is basically an upgraded version of the 04_Blog_webs
 - fully mobile responsive with an adaptive navigation bar,</br>
 - fully functional contact form (POST request - Flask) that will send an email form to the specified email receiver,</br>
 - error handling - 404 - page not found.</br>
+
+
+## 11_Flask_Authentication
+This is a website where the user has to register in order to be allowed to download the secret file cheat_sheet.pdf.
+After registration, the users' data will be stored securely in the database and the next time the user will be able to login.
+When the user gets registered, the email address, user name , and hashed password with salt are stored in the database instance/users.db.
+This website shows how authetication is done with the use of Flask and Flask-login while maintaining the highest security by hashing the user passwords and adding salt to them and then storing the hash in the database instead of the password itself.
+If the user is not logged in and tries to access the routes /download or/secrets, the server will respond with 401 HTTP-Unauthorized. Only logged in / authenticated users will have access to these routes.
+In order to give a better user experience, Flask flash messaging was implemented to give feedback to the user if the email address is incorrect, like it exists in the database, or if the email address does not exist and the user tries to login, or if the password was wrong, like it does not match to the email. 
