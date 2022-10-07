@@ -95,7 +95,7 @@ The necessary steps to make the program work:</br>
 ![Screenshot](docs/img/08_401_unauthorized.png)</br>
 
 
----
+--- 
 
 **The program was developed using python 3.10.6, Flask 2.2, Flask-Login, Flask - Message Flashing, Flask-SQLAlchemy, SQLite, Hashing passwords with Wergzeug**
 
