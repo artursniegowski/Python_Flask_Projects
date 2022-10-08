@@ -16,7 +16,7 @@ Flask-Login</br>
 https://flask-login.readthedocs.io/en/latest/</br>
 
 Hashing password</br>
-https://werkzeug.palletsprojects.com/en/2.2.x/utils/#werkzeug.security.generate_password_hash</br>
+https://werkzeug.palletsprojects.com/en/2.2.x/utils/#werkzeug.security.generate_password_hash</br> 
 
 Flask - Message Flashing</br>
 https://flask.palletsprojects.com/en/2.2.x/patterns/flashing/#message-flashing</br>
