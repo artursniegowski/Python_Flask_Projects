@@ -135,11 +135,9 @@ GMAIL_APP_PASSWORD = "GMAIL_APP_PASSWORD"</br>
 user id = 1 </br>
 email: admin@gmail.com</br>
 password: admin</br>
-</br>
 user id = 2 </br>
 email: tester@gmail.com</br>
 password: tester</br>
-</br>
 Alternatively, you can simply delete the database instance/blog.db and then run main.py.
 A new empty database will be created, and you will have to register the users create new posts (The first registered user will become the admin!).
 I recommend using the SQLite browser to explore the data currently saved in the database.
