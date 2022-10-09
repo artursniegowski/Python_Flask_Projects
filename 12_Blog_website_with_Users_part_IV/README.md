@@ -11,7 +11,7 @@ The main features are:</br>
 - blog post pages with full-screen titles that are generated dynamically. </br>
 - multi-page website with an interactive navigation bar.</br>
 - fully mobile responsive with an adaptive navigation bar.</br>
--  a fully functional contact form (POST request-Flask) that will send an email form to the specified email receiver. </br>
+- a fully functional contact form (POST request-Flask) that will send an email form to the specified email receiver. </br>
 - customised error handling-403-page Forbidden.</br>
 - customised error handling-404-page not found.</br> 
 
