@@ -93,3 +93,20 @@ When the user gets registered, the email address, user name , and hashed passwor
 This website shows how authetication is done with the use of Flask and Flask-login while maintaining the highest security by hashing the user passwords and adding salt to them and then storing the hash in the database instead of the password itself.
 If the user is not logged in and tries to access the routes /download or/secrets, the server will respond with 401 HTTP-Unauthorized. Only logged in / authenticated users will have access to these routes.
 In order to give a better user experience, Flask flash messaging was implemented to give feedback to the user if the email address is incorrect, like it exists in the database, or if the email address does not exist and the user tries to login, or if the password was wrong, like it does not match to the email. 
+
+## 12_Blog_website_with_Users_part_IV
+This is a fully-fledged blog website that is ready to be published and launched. It's an upgraded version of the previous blog website (10_RESTful_Blog_website_part_III). The blog was developed using the Python framework Flask. The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/previews/clean-blog), Flask-Bootstrap, Bootstrap, and CSS. Some extra functionality like registering and authenticating users was added, as well as the ability for authenticated users to comment on blog posts. </br>
+The main features are:</br>
+- RESTful Blog: with the blog you will be able to create new posts, edit and delete existing posts from the database (Flask HTTP requests and forms WTF). Only the admin user (id = 1), the first user to register on the blog, will have these rights. </br>
+- Authentication-users for the website and giving different permissions. There will be 3 groups that are distinguished: admin, logged users, and anonymous users (not logged in). </br>
+- all the posts will be stored in a SQLite database and managed with Flask-SQLAlchemy.</br>
+- use of Gravatar images to provide an avatar image for blog commenters.</br>
+- Making use of Relational Databases (one-to-many relationship).</br>
+- Message Flashing using Flask Flash to give feedback to the user. They will be visible only for one session. </br>
+- CKEditorField-The CK Editor field renders the CK editor control that allows users to visually work with HTML and save the results back into a text property. </br>
+- blog post pages with full-screen titles that are generated dynamically. </br>
+- multi-page website with an interactive navigation bar.</br>
+- fully mobile responsive with an adaptive navigation bar.</br>
+-  a fully functional contact form (POST request-Flask) that will send an email form to the specified email receiver. </br>
+- customised error handling-404-page not found.</br>
+- customized error handling-404-Unauthorized.</br> 
