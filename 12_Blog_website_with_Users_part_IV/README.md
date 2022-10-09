@@ -34,9 +34,9 @@ The anonymous users/not logged in users will be allowed only to read the posts.<
 
 
 The main page consists of a list of posts (titles and subtitles), with the option to open each post, which will redirect the user into a detailed view of the given post. The admin user can add a post from the main page with the help of the button: Create New Post. On top of that, from the detail view, each post can be edited but only by an admin user.
-The adaptive navigation has different options depending on whether a user is authenticated or not.
-Authenticated users will have the options: HOME, LOGOUT, ABOUT, CONTACT.
-Not-Authenticated users (not logged in) will have the options: HOME, LOGIN, REGISTER, ABOUT, CONTACT.
+The adaptive navigation has different options depending on whether a user is authenticated or not.</br>  
+Authenticated users will have the options: HOME, LOGOUT, ABOUT, CONTACT.</br>  
+Not-Authenticated users (not logged in) will have the options: HOME, LOGIN, REGISTER, ABOUT, CONTACT.</br>  
 
 
 The contact view has a form where the user can fill up the required data and send it to the server as a POST request, which will be processed and sent to the given email address in the form with a short message.
