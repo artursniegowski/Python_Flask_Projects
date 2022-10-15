@@ -15,7 +15,7 @@ The main features are:</br>
 - customised error handling-403-page Forbidden.</br>
 - customised error handling-404-page not found.</br> 
  
-
+ 
 
 
 The data for each post, user, and comment is stored respecively in three different tables using an SQLite database and managed with the help of Flask-SQLAlchemy. Between these tables, there exists a database relationship "A one to many", which makes it easy to locate all the comments belonging to each post or all the blog posts belonging to a specific user.
