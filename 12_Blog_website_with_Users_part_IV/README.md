@@ -13,7 +13,7 @@ The main features are:</br>
 - fully mobile responsive with an adaptive navigation bar.</br>
 - a fully functional contact form (POST request-Flask) that will send an email form to the specified email receiver. </br>
 - customised error handling-403-page Forbidden.</br>
-- customised error handling-404-page not found.</br> 
+- customised error handling-404-page not found.</br>  
  
  
 
