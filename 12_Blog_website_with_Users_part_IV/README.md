@@ -25,7 +25,7 @@ As mentioned earlier, there will be three groups of users:</br> 
 - logged users (any user that has registered after the admin),</br> 
 - anonymous users (not logged in).</br> 
 
-
+  
 Depending on the group the user belongs to, they will be able to perform different tasks on the blog.</br> 
 Admin users will have all rights over the blog website. They will be able to read, create, update, and delete posts, as well as comment on the blog posts.</br> 
 Regular logged-in users will be allowed only to read posts and comment on them.</br> 
