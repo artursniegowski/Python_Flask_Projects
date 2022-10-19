@@ -1,0 +1,115 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block html_attribs %} lang="en"{% endblock html_attribs %}
+
+{% block title %}Arturo's Blog{% endblock title %}
+
+  {% block metas %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+  {% endblock metas %}
+
+  {% block styles %}
+    {{super()}}
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}" />
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!-- Font Awesome icons (free version)-->
+    <!-- <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script> -->
+    <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/clean-blog.min.css')}}" rel="stylesheet">
+  {% endblock styles %}
+
+{% block content %}
+  {% include "includes/header.html" %}
+
+  <!-- Page Header -->
+<header class="masthead" style="background-image: url('{{post.img_url}}')">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div class="post-heading">
+					<h1>{{post.title}}</h1>
+					<h2 class="subheading">{{post.subtitle}}</h2>
+					<span class="meta">Posted by
+              <a href="#">{{post.author.name}}</a>
+              on {{post.date}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>
+            {{post.body|safe}}
+          </p>
+          <hr>
+          <div class="clearfix">
+            {% if current_user.id == 1 %}
+              <a class="btn btn-primary float-right" href="{{url_for('edit_post', post_id=post.id)}}">Edit Post</a>
+            {% endif %}
+          </div>
+
+          <!-- Comments Area -->
+
+          <!-- Submiting comment form -->
+          <!-- Load ckeditor -->
+          {{ ckeditor.load() }}
+          <!--
+            Configure the ckeditor to tell it which field in WTForm will need to be a CKEditor.
+          --> 
+          {{ ckeditor.config(name='comment') }}
+          <!-- WTF quickform -->
+          {{ wtf.quick_form(form, novalidate=True, button_map={'submit':'primary'}) }}
+          
+          <div class="col-lg-8 col-md-10 mx-auto comment">
+            
+            {% for comment in all_comments  %}
+            <ul class="commentList">
+                <li>
+                  <div class="commenterImage">
+                    
+                    <img src="{{ comment.comment_author.email | gravatar }}"/>
+                  </div>
+                  <div class="commentText">
+                    <p>{{ comment.text|safe }}</p>
+                    <span class="date sub-text">{{ comment.comment_author.name }}</span>
+                  </div>
+                </li>
+              </ul>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+  
+  {% include "includes/footer.html" %}
+{% endblock %}
+
+
+{% block scripts %}
+  {{super()}}
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{{ url_for('static', filename='js/clean-blog.min.js')}}"></script>
+{% endblock scripts %}
