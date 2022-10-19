@@ -14,7 +14,7 @@ The main features are:</br>
 - a fully functional contact form (POST request-Flask) that will send an email form to the specified email receiver. </br>
 - customised error handling-403-page Forbidden.</br>
 - customised error handling-404-page not found.</br> 
-
+ 
 
 The data for each post, user, and comment is stored respectively in three different tables using an SQLite database (if launched locally) and PostgreSQL when launched from Herokoku and managed with the help of Flask-SQLAlchemy.
 Heroko will erase the whole SQLite database every 24 hours (https://devcenter.heroku.com/articles/sqlite3#disk-backed-storage) so it is necessary to set up a PostgreSQL database on Heroku and connect it to our database. The only thing we will have to do is to add in our Heroku app from the resources tab, the Heroku - Postgres adds on, after which a secret key in the Config Vars will be added, called DATABASE_URL.
