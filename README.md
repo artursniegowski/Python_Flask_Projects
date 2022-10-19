@@ -110,3 +110,6 @@ The main features are:</br>
 - a fully functional contact form (POST request-Flask) that will send an email form to the specified email receiver. </br>
 - customised error handling-403-page Forbidden.</br>
 - customised error handling-404-page not found.</br> 
+
+## 13_Blog_website_heroku_ready_part_V
+This is a fully-fledged blog website that is ready to be published and launched on Heroku (https://www.heroku.com/). It's an upgraded version of the previous blog website (12_Blog_website_with_Users_part_IV). The blog was developed using the Python framework Flask. The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/previews/clean-blog), Flask-Bootstrap, Bootstrap, and CSS. Some extra functionality like registering and authenticating users was added, as well as the ability for authenticated users to comment on blog posts. The database was upgraded from SQLite to PostgreSQL. All the necessary steps to make the website work on Heroku are in the project description.
