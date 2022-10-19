@@ -1,4 +1,4 @@
-# 12_Blog_website_with_Users_part_IV
+# 12_Blog_website_with_Users_part_IV 
 This is a fully-fledged blog website that is ready to be published and launched. It's an upgraded version of the previous blog website (10_RESTful_Blog_website_part_III). The blog was developed using the Python framework Flask. The styling was done with the help of additional Bootstrap templates (https://startbootstrap.com/previews/clean-blog), Flask-Bootstrap, Bootstrap, and CSS. Some extra functionality like registering and authenticating users was added, as well as the ability for authenticated users to comment on blog posts. </br> 
 The main features are:</br>
 - RESTful Blog: with the blog you will be able to create new posts, edit and delete existing posts from the database (Flask HTTP requests and forms WTF). Only the admin user (id = 1), the first user to register on the blog, will have these rights. </br>
