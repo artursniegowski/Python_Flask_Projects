@@ -87,7 +87,7 @@ https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/</br>
 
 SQLAlchemy</br>
 https://docs.sqlalchemy.org/en/14/orm/query.html </br>
-
+ 
 ONE-TO-MANY Database relationships</br>
 https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html?highlight=one+many </br>
 
